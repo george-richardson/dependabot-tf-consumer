@@ -17,5 +17,5 @@ module "module_a" {
 }
 
 module "module_b" {
-  source = "git@github.com:george-richardson/dependabot-tf-source.git//module-b?ref=module_b-v1.0.0"
+  source = "git@github.com:george-richardson/dependabot-tf-source.git//module-b?ref=module_b-v1.0.1"
 }
