@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "module_a" {
-  source = "git@github.com:george-richardson/dependabot-tf-source.git//module-a?ref=module_a-v1.0.0"
+  source = "git@github.com:george-richardson/dependabot-tf-source.git//module-a?ref=module_a-v1.1.0"
 }
 
 module "module_b" {
